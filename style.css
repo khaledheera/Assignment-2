@@ -519,17 +519,15 @@ footer {
         margin: 10px 0;
     }
 
-    .S3-img {
+    .S3-img {width: 100%;
         position: relative;
-        right: 150px;
-        width: 100%;
-        margin: 50px 0;
-
+        right:300px;
+       margin: 50px 0;
     }
 
     .S3-button {
         position: relative;
-        left: 150px;
+        left: 300px;
         padding: 5px 10px;
         width: 220px;
         height: 100px;
