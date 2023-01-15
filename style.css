@@ -297,6 +297,16 @@ article {
     align-items: center;
     padding: 45px 60px 35px;
 }
+@keyframes box {
+    0%   {background: lightseagreen;}
+    25%  { background: lightgreen;}
+    50%  { background: peru;}
+    75%  { background: lightpink;}
+    100% { background: limegreen;}
+  }
+.icon-box:hover{
+    animation: box 3s linear 1s infinite alternate;;
+}
 
 .icon-box>h4 {
     font-weight: 600;
