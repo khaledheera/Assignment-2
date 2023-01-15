@@ -148,7 +148,7 @@ article {
 }
 
 .S3>.line>h2 {
-    width: 468px;
+   width: 468px; 
     height: 106px;
     font-weight: 700;
     font-size: 45px;
@@ -394,9 +394,10 @@ footer {
 /* Responsive */
 
 @media only screen and (max-width:576px) {
-    * {
-        overflow-x: hidden;
-    }
+    /* *{
+        overflow-y: hidden;
+    } */
+
     nav {
         display: block;
     }
@@ -408,7 +409,7 @@ footer {
 
     nav>ul {
         display: block;
-        margin: 0;
+        margin:20px 0;
     }
 
     nav>ul>li {
@@ -461,19 +462,18 @@ footer {
     }
 
     .line {
-        margin-left: 5px;
+        width: 1px;
+        height: 100px;
+        margin: 20px 0;
     }
+    .S3>.line>h2{
 
-    .S3>h2 {
-        text-align: center;
-        width: 100%;
-
-        margin: o;
     }
+    
 
     .S3>p {
         width: 100%;
-        margin: 20px 0;
+        margin: 0;
     }
 
     .S3-1,
@@ -525,7 +525,8 @@ footer {
     .S3-img {
         position: relative;
         right: 170px;
-       margin: 50px 0;
+        margin: 50px 0;
+        
     }
 
     .S3-button {
@@ -540,7 +541,7 @@ footer {
     .S3-button>h2 {
         width: 100px;
         height: 50px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .fact>h3 {
