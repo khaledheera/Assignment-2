@@ -394,6 +394,9 @@ footer {
 /* Responsive */
 
 @media only screen and (max-width:576px) {
+    * {
+        overflow-x: hidden;
+    }
     nav {
         display: block;
     }
@@ -519,15 +522,15 @@ footer {
         margin: 10px 0;
     }
 
-    .S3-img {width: 100%;
+    .S3-img {
         position: relative;
-        right:300px;
+        right: 170px;
        margin: 50px 0;
     }
 
     .S3-button {
         position: relative;
-        left: 300px;
+        left: 170px;
         padding: 5px 10px;
         width: 220px;
         height: 100px;
